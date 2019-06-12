@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="init.js" defer></script>
+    <script src="src/controller/controller.js"></script>
+    <script src="src/model/tree.js"></script>
+    <script src="src/logic/logic.js"></script>
+</head>
+<body>
+
+<canvas id="c1" width="800" height="400"></canvas>
+<div class="footer">
+
+    <input type="number"  id="add_number">
+    <button type="submit" id="createNode" >add</button>
+
+    <input type="number"  id="delete_number">
+    <button type="submit" onclick="tree.deleteNodeFromArray()">delete</button>
+    </br>
+    <button type="submit" id="upgrade">upgrade</button>
+
+    <div class = 'alarm' id = "text">
+
+    </div>
+
+</div>
+</body>
+</html>
